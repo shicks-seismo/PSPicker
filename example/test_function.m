@@ -33,6 +33,8 @@ EVENT=EVENT.EVENT;
             [EVENT.PHASES(ind_S).WEIGHT]=deal(2);
 
 %%%% Start Refinment process
+EVENT
+mainfile
 
 S=refine_PICKS(EVENT,mainfile,1);
 

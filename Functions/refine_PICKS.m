@@ -64,7 +64,7 @@ stations_str=strjoin(stations);
 
 %%% Compute theoretical arrival times
 
-EVENT=comp_THEO(hyp,EVENT);
+EVENT=comp_THEO(hyp,EVENT,flag_plot_level);
 
 %%% Only get stations referenced in Parameter file
 
@@ -151,7 +151,7 @@ for iter=1:length(DATA) % iter goes trough all the stations (for one iter we can
     end
     
     %% Read theoretical pick for P and S from event structure to fill window
-    
+   
     [PHASE_P,ind_Pphase]=get_PHASE(PHASES,'station',station,'type','P');
     time_P=PHASE_P.THEO;
     
@@ -619,7 +619,7 @@ end
 EVENT.PHASES=PHASES;
 
 %%% Relocate 
-new_event=comp_THEO(hyp,EVENT);
+new_event=comp_THEO(hyp,EVENT,flag_plot_level);
 new_event.COLOR=[1 0 0];
 S.DATA=DATA;
 S.EVENTS=new_event;

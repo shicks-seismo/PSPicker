@@ -140,7 +140,7 @@ switch format
         string(80)='6';
     case 4
         string=sprintf('%80s',' ');
-        string(2:6)=sprintf('%-5.5s',datas.station);
+        string(2:6)=sprintf('%-5s',datas.station);
         string(7)=sprintf('%1.1s',datas.type);
         string(8)=sprintf('%1.1s',datas.component);
         string(10)=sprintf('%1.1s',datas.quality);
@@ -159,7 +159,7 @@ switch format
         string(64:68)=sprintf('%5.5s',num2str(datas.residual,'%5.4g'));
         string(69:70)=sprintf('%2s',num2str(datas.weightcal,'%2.0f'));
         string(71:79)=sprintf('%5.0f %3.0f',datas.distance,datas.azi);
-        
+
 %         string=sprintf(format_type4,...
 %             datas.station,datas.type,datas.component,datas.quality,...
 %             datas.phase,datas.weight,' ',datas.firstmotion,...

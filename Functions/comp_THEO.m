@@ -12,7 +12,6 @@ end
 %%% Go into hyp/ dir to avoid stuffing current dir
 
 cd('hyp_tmp');
-
 %%% Define input_output files
 
 sfile_input='input.sfile';
@@ -20,15 +19,18 @@ sfile_output='ouput.sfile';
 
 %%% Create sfile
 
+
 event2nor(event,sfile_input);
 
 %%% Compute synthetics
-
+disp('Computing synthetics')
 comp_ARRIVALS(hyp,sfile_input,sfile_output,show)
 
-%%% Read sfile
 
+%%% Read sfile
 new_event=nor2event(sfile_output);
+assignin('base', 'var2', new_event)
+
 
 %%% Read first loc
 

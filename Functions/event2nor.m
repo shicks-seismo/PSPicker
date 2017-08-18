@@ -50,6 +50,7 @@ end
 
 function event2nor_single(EVENT,sfile_name)
 
+
 %%% Initialize
 
 nor_struct=read_nor();

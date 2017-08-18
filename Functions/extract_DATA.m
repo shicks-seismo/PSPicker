@@ -60,14 +60,17 @@ if error_flag
     fprintf(1,'No data found in %s for %s <= time < %s\n',PickerParam.sds_path, start_time_str,end_time_str);
     return
 end
+
 movefile(mseed_file,'./tmp/cat.mseed');
 movefile('scratch.file','./tmp/scratch.file');
+
 
 %%%%%%%%%%%%%%%%%%
 %%% Read file %%%%
 %%%%%%%%%%%%%%%%%%
 
 X=rdmseed('./tmp/cat.mseed');
+
 S=get_DATA(X);
 DATA=S.DATA;
 S.EVENTS=EVENT;

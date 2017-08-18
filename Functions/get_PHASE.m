@@ -47,7 +47,7 @@ function [OUT,ind]=get_PHASE(IN,varargin)
    if strcmp(type,default_char);
        type=all_type;
    end
-       
+     
   cmd=ismember(all_station,station) & ...
   ismember(all_chan,chan) & ...
   ismember(all_type,type);

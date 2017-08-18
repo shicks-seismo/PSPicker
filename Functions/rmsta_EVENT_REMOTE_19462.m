@@ -13,7 +13,7 @@
 %     new_res
 
 
-function [OUT,station_reject,new_res]=rmsta_EVENT(IN,mainfile,mstan,limit,limit_dev,flag_plot)
+function [OUT,station_reject,new_res]=rmsta_EVENT(IN,mainfile,mstan,limit,limit_dev,flag_plot, debug)
 
 
 % sfile='loc_scratch.out';

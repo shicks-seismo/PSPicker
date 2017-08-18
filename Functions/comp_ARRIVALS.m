@@ -26,7 +26,6 @@ function comp_ARRIVALS(hyp,sfile,sfile_output,show)
 
 S=read_nor(sfile);
 
-
 %% Checking Files and Programs
 %%% Check if file and hyp location exist
 
@@ -119,7 +118,7 @@ end
 
 %%% Apply residuals to get final arrival time
 
-cmd='sed -n ''/stn  /,/^$/p'' print.out | tail -n+2 | awk ''{print substr($0,1,5),substr($0,26,2),substr($0,42,2),substr($0,44,2),substr($0,47,4),substr($0,58,6)}'' > travel.out';
+cmd='sed -n ''/stn  /,/^$/p'' print.out | tail -n+2 | awk ''{print substr($0,1,6),substr($0,26,2),substr($0,42,2),substr($0,44,2),substr($0,47,4),substr($0,58,6)}'' > travel.out';
 system(cmd);
 
 fic=fopen('travel.out','rt');

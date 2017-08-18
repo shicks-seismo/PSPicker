@@ -15,7 +15,6 @@
 
 function [OUT,station_reject,new_res]=rmsta_EVENT(IN,mainfile,mstan,limit,limit_dev,flag_plot)
 
-
 % sfile='loc_scratch.out';
 % mainfile='mainfile_Gorkha.txt';
 % flag_plot=1;
@@ -33,7 +32,6 @@ end
 PickerParam=readmain(mainfile);
 hyp=PickerParam.hyp;
 
-
 %%% Initialize
 
 station_reject=[];
@@ -42,12 +40,10 @@ station_reject=[];
 
 EVENT_I=IN;
 
-
-
 %%% Extract DATA for plotting
 
 if flag_plot
-    [~,S]=extract_DATA(EVENT_I,mainfile,debug);
+    [~,S]=extract_DATA(EVENT_I,mainfile);
     plot_DATA(S)
 end
 
@@ -63,6 +59,7 @@ station_list=unique({PHASES_I.STATION});
 EVENT_F=init_EVENT(numel(station_list));
 res=nan(numel(station_list),1);
 
+
 for i=1:numel(station_list);
     station=station_list(i);
     PHASES_NEW=PHASES_I;
@@ -76,7 +73,6 @@ end
 
 
 EVENT_G=hyp_EVENT(EVENT_F,hyp);
-
 
 res=[EVENT_G(:).RMS];
 median_res=mean(res);
@@ -99,10 +95,8 @@ else
     new_EVENT=EVENT_G(ind_sta);
     station_reject=station_list(ind_sta);
 end
-OUT=comp_THEO(hyp,new_EVENT, debug);
 
-
-
+OUT=comp_THEO(hyp,new_EVENT);
 
 if flag_plot
    figure

@@ -5,7 +5,7 @@ input_nordic='./initial.nor'
 sds_path='./SDS/'
 
 # SEISAN HYPOCENTER path
-hyp='/home/baillard/PROGRAMS/SEISAN/PRO/hyp'
+hyp='/Users/sph1r17/programs/seisan/PRO/hyp'
 
 # SEISAN STATION0.HYP path
 station_file='./STATION0.HYP'

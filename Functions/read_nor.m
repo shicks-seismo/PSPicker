@@ -169,7 +169,7 @@ switch format
     case 4
         %%% Scan line
 % STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7        
-        station=strtrim(line(2:6));
+        station=strtrim(line(2:7));
         type=line(7);
         component=line(8);
         quality=line(10);
