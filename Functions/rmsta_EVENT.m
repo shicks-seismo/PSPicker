@@ -13,7 +13,7 @@
 %     new_res
 
 
-function [OUT,station_reject,new_res]=rmsta_EVENT(IN,mainfile,mstan,limit,limit_dev,flag_plot)
+function [OUT,station_reject,new_res]=rmsta_EVENT(IN,mainfile,mstan,limit,limit_dev,debug)
 
 
 % sfile='loc_scratch.out';
@@ -46,7 +46,7 @@ EVENT_I=IN;
 
 %%% Extract DATA for plotting
 
-if flag_plot
+if debug
     [~,S]=extract_DATA(EVENT_I,mainfile,debug);
     plot_DATA(S)
 end
@@ -99,12 +99,12 @@ else
     new_EVENT=EVENT_G(ind_sta);
     station_reject=station_list(ind_sta);
 end
-OUT=comp_THEO(hyp,new_EVENT, debug);
+OUT=comp_THEO(hyp,new_EVENT,debug);
 
 
 
 
-if flag_plot
+if debug
    figure
    plot(res)
    hold on

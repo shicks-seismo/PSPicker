@@ -3,3 +3,12 @@
 SFILE/
 SFILE/
 hyp_tmp/
+tmp/*
+tmp/scratch.file
+tmp/cat.mseed
+scratch.file
+hyp.out
+hypsum.out
+input.sfile
+log_file.txt
+print.out

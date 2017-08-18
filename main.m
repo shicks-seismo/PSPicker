@@ -15,12 +15,12 @@ addpath(genpath('Functions'))
 %%%%%%%%%%%%%%%%%%
 
 mainfile={'mainfile.txt'};
-flag_plot=0;
+flag_plot=1;
 rms_thres=4;
 mstan=2;
 limit_pha=4;
 limit_dev=0.5;
-debug=0;
+debug=1;
 
 
 
@@ -117,7 +117,7 @@ for i=1:numel(files_nor)
             [EVENT.PHASES(ind_S).WEIGHT]=deal(2);
 
             %%% 2) Extract Data (nood really need, only for plotting)
-
+            close all
             [DATA,S]=extract_DATA(EVENT,mainfile{1},debug);
             if isempty(DATA)
                 continue
@@ -127,9 +127,9 @@ for i=1:numel(files_nor)
 
             %%% 3) Clean event and relocate
             disp('Cleaning event and relocating')
-            [EVENT_B,a,b]=rmsta_EVENT(EVENT,mainfile{1},mstan,limit_pha,limit_dev,0, debug);
+            [EVENT_B,a,b]=rmsta_EVENT(EVENT,mainfile{1},mstan,limit_pha,limit_dev,debug);
 
-            EVENT_C=rmres_EVENT(EVENT_B,rms_thres,hyp, debug);
+            EVENT_C=rmres_EVENT(EVENT_B,rms_thres,hyp,debug);
 
             if isempty(EVENT_C.LON)
                 continue
@@ -151,7 +151,7 @@ for i=1:numel(files_nor)
                 %%%  Clean event and relocate
 
                 EVENT_D=S.EVENTS;
-                [EVENT_E,station_reject,new_res]=rmsta_EVENT(EVENT_D,mainfile{k},mstan,limit_pha,limit_dev,1, debug);
+                [EVENT_E,station_reject,new_res]=rmsta_EVENT(EVENT_D,mainfile{k},mstan,limit_pha,limit_dev,debug);
                 EVENT_F=rmres_EVENT(EVENT_E,rms_thres,hyp,debug);
          
                 if isempty(EVENT_F.LON)

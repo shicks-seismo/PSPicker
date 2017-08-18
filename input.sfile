@@ -1,60 +1,84 @@
- 2015  125  620  6.9 L                            5                            1
+ 2014 12 4 2224 45.9 L                            6                            1
                                                                                E
                                                                                6
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- RABL     P   4    620  6.90                                     3.7            
- RABL     S   2    620 19.30                                    -0.5            
- LASU     P   0    620  7.04                                    0.14            
- KAVI     P   2    620 29.50                                     1.8            
- KAVI     S   2    621  1.68                                   -1.22            
- ARAWA    S   4    621 22.76                                   -3.84            
- BUIN     P   3    620 43.38                                   -2.52            
+ BUKA     P   1   2224 45.90                                                    
+ BUKA     S   2   2224 55.00                                                    
+ ARAWA    P   4   2229 33.50                                                    
+ BUIN     P   1   2228 20.40                                                    
+ BUIN     S   2   2228 25.30                                                    
+ LIHIR    P   1   2227 42.80                                                    
+ LIHIR    S   2   2227 44.80                                                    
+ KIMBE    P   1   2226 21.90                                                    
+ KAVI     P   1   2228  9.70                                                    
                                                                                 
- 2015  125  620  6.9 L                            5                            1
+ 2014 12 4 2224 45.9 L                            6                            1
                                                                                E
                                                                                6
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- RABL     P   4    620  6.90                                     3.7            
- RABL     S   2    620 19.30                                    -0.5            
- LASU     P   0    620  7.04                                    0.14            
- KAVI     P   2    620 29.50                                     1.8            
- KAVI     S   2    621  1.68                                   -1.22            
- ARAWA    S   3    621 22.76                                   -3.84            
- BUIN     P   4    620 43.38                                   -2.52            
+ BUKA     P   1   2224 45.90                                                    
+ BUKA     S   2   2224 55.00                                                    
+ ARAWA    P   1   2229 33.50                                                    
+ BUIN     P   4   2228 20.40                                                    
+ BUIN     S   4   2228 25.30                                                    
+ LIHIR    P   1   2227 42.80                                                    
+ LIHIR    S   2   2227 44.80                                                    
+ KIMBE    P   1   2226 21.90                                                    
+ KAVI     P   1   2228  9.70                                                    
                                                                                 
- 2015  125  620  6.9 L                            5                            1
+ 2014 12 4 2224 45.9 L                            6                            1
                                                                                E
                                                                                6
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- RABL     P   4    620  6.90                                     3.7            
- RABL     S   2    620 19.30                                    -0.5            
- LASU     P   0    620  7.04                                    0.14            
- KAVI     P   4    620 29.50                                     1.8            
- KAVI     S   4    621  1.68                                   -1.22            
- ARAWA    S   3    621 22.76                                   -3.84            
- BUIN     P   3    620 43.38                                   -2.52            
+ BUKA     P   4   2224 45.90                                                    
+ BUKA     S   4   2224 55.00                                                    
+ ARAWA    P   1   2229 33.50                                                    
+ BUIN     P   1   2228 20.40                                                    
+ BUIN     S   2   2228 25.30                                                    
+ LIHIR    P   1   2227 42.80                                                    
+ LIHIR    S   2   2227 44.80                                                    
+ KIMBE    P   1   2226 21.90                                                    
+ KAVI     P   1   2228  9.70                                                    
                                                                                 
- 2015  125  620  6.9 L                            5                            1
+ 2014 12 4 2224 45.9 L                            6                            1
                                                                                E
                                                                                6
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- RABL     P   4    620  6.90                                     3.7            
- RABL     S   2    620 19.30                                    -0.5            
- LASU     P   4    620  7.04                                    0.14            
- KAVI     P   2    620 29.50                                     1.8            
- KAVI     S   2    621  1.68                                   -1.22            
- ARAWA    S   3    621 22.76                                   -3.84            
- BUIN     P   3    620 43.38                                   -2.52            
+ BUKA     P   1   2224 45.90                                                    
+ BUKA     S   2   2224 55.00                                                    
+ ARAWA    P   1   2229 33.50                                                    
+ BUIN     P   1   2228 20.40                                                    
+ BUIN     S   2   2228 25.30                                                    
+ LIHIR    P   1   2227 42.80                                                    
+ LIHIR    S   2   2227 44.80                                                    
+ KIMBE    P   1   2226 21.90                                                    
+ KAVI     P   4   2228  9.70                                                    
                                                                                 
- 2015  125  620  6.9 L                            5                            1
+ 2014 12 4 2224 45.9 L                            6                            1
                                                                                E
                                                                                6
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- RABL     P   4    620  6.90                                     3.7            
- RABL     S   4    620 19.30                                    -0.5            
- LASU     P   0    620  7.04                                    0.14            
- KAVI     P   2    620 29.50                                     1.8            
- KAVI     S   2    621  1.68                                   -1.22            
- ARAWA    S   3    621 22.76                                   -3.84            
- BUIN     P   3    620 43.38                                   -2.52            
+ BUKA     P   1   2224 45.90                                                    
+ BUKA     S   2   2224 55.00                                                    
+ ARAWA    P   1   2229 33.50                                                    
+ BUIN     P   1   2228 20.40                                                    
+ BUIN     S   2   2228 25.30                                                    
+ LIHIR    P   1   2227 42.80                                                    
+ LIHIR    S   2   2227 44.80                                                    
+ KIMBE    P   4   2226 21.90                                                    
+ KAVI     P   1   2228  9.70                                                    
+                                                                                
+ 2014 12 4 2224 45.9 L                            6                            1
+                                                                               E
+                                                                               6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BUKA     P   1   2224 45.90                                                    
+ BUKA     S   2   2224 55.00                                                    
+ ARAWA    P   1   2229 33.50                                                    
+ BUIN     P   1   2228 20.40                                                    
+ BUIN     S   2   2228 25.30                                                    
+ LIHIR    P   4   2227 42.80                                                    
+ LIHIR    S   4   2227 44.80                                                    
+ KIMBE    P   1   2226 21.90                                                    
+ KAVI     P   1   2228  9.70                                                    
                                                                                 

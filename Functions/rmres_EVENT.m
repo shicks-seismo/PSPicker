@@ -50,7 +50,7 @@ for i=1:numel(IN)
     
     %%% Recompute the event
     
-    EVENT=comp_THEO(hyp,EVENT, show);
+    EVENT=comp_THEO(hyp,EVENT,show);
     
     %%% Store
     
